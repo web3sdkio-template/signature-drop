@@ -1,8 +1,8 @@
 # Signature Drop
 
-This example shows how you can use the [Signature Drop Pre-Built Contract](https://portal.web3sdk.io/pre-built-contracts/signature-drop) to
-utilize both the [claim](https://portal.web3sdk.io/pre-built-contracts/signature-drop#minting--claiming-nfts) function to claim NFTs under the criteria
-of a claim condition, as well as the [Signature-based minting](https://portal.web3sdk.io/advanced-features/on-demand-minting) feature to
+This example shows how you can use the [Signature Drop Pre-Built Contract](https://docs.web3sdk.io/pre-built-contracts/signature-drop) to
+utilize both the [claim](https://docs.web3sdk.io/pre-built-contracts/signature-drop#minting--claiming-nfts) function to claim NFTs under the criteria
+of a claim condition, as well as the [Signature-based minting](https://docs.web3sdk.io/advanced-features/on-demand-minting) feature to
 offer free NFT mints to specific users simultaneously.
 
 ![demo](demo.png)
@@ -11,12 +11,12 @@ We allow users who hold one of our [Early Access NFTs](https://opensea.io/collec
 
 ## Tools
 
-- [Signature Drop](https://portal.web3sdk.io/pre-built-contracts/signature-drop) to lazy mint NFTs for other wallets to claim.
-- [React SDK](https://portal.web3sdk.io/react) to connect to user's wallets and interact with the smart contract.
+- [Signature Drop](https://docs.web3sdk.io/pre-built-contracts/signature-drop) to lazy mint NFTs for other wallets to claim.
+- [React SDK](https://docs.web3sdk.io/react) to connect to user's wallets and interact with the smart contract.
 
 ## Create Your Own
 
-You can create a project using this example with the [web3sdkio CLI](https://portal.web3sdk.io/web3sdkio-cli) by running the below command:
+You can create a project using this example with the [web3sdkio CLI](https://docs.web3sdk.io/web3sdkio-cli) by running the below command:
 
 ```bash
 npx web3sdkio create --template signature-drop
@@ -50,7 +50,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 }
 ```
 
-Now we can utilize all of the functionality of the [React SDK](https://portal.web3sdk.io/react) to connect to the user's wallets and their network on the [index.tsx](./pages/index.tsx) file.
+Now we can utilize all of the functionality of the [React SDK](https://docs.web3sdk.io/react) to connect to the user's wallets and their network on the [index.tsx](./pages/index.tsx) file.
 
 ```jsx
 const address = useAddress();
@@ -172,4 +172,4 @@ if (signedPayloadReq.status === 400) {
 
 ## Join our Discord!
 
-For any questions, suggestions, join our discord at [https://discord.gg/web3sdkio](https://discord.gg/web3sdkio).
+For any questions, suggestions, join our discord at [https://discord.gg/n33UhsfUKB](https://discord.gg/n33UhsfUKB).

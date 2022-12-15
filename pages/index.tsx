@@ -64,7 +64,7 @@ const Home: NextPage = () => {
           Early Access NFTs
         </a>{" "}
         can mint for free using the{" "}
-        <a href="https://portal.web3sdk.io/pre-built-contracts/signature-drop#signature-minting">
+        <a href="https://docs.web3sdk.io/pre-built-contracts/signature-drop#signature-minting">
           Signature Mint
         </a>
         . However, for those who don&apos;t own an Early Access NFT, they can

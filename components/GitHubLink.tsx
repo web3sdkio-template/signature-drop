@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Web3sdkioGuideFooter() {
-  const url = "https://github.com/web3sdkio-example/signature-drop";
+  const url = "https://github.com/web3sdkio-template/signature-drop";
   return (
     <>
       <div
